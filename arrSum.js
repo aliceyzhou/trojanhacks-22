@@ -4,12 +4,14 @@
 
 
 const sum = [10,6,4,12].reduce((partialSum, a) => partialSum + a, 0);
-//console.log(sum); //6
+//console.log(sum); //32
 
 
 
 //we still need to figure out how to get the output from
-//player 1 and player 2
+//player 1 and player 2 and compare with our HOST to
+//check if answer is correct
+
 function Compare(player1, player2, host){
     host = sum;
     
@@ -36,11 +38,6 @@ function Compare(player1, player2, host){
     }
 
 }
-
-function Compare()
-
-
-
 
 
 
