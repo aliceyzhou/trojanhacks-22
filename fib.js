@@ -13,13 +13,14 @@ function fibSeq(num) {
 }
 
 // take nth term input from the user and evaluate 
-const evalNum = prompt('Enter the number N to evaluate: ');
+const N = prompt('Enter the number N to evaluate: ');
 
-if(evalNum <=0) {
+if(N <=0) {
     console.log('Enter a positive integer.');
 }
 else {
-        console.log(fibSeq(evalNum));
+    //console.log(fibSeq(N));  //shows answer
+    evalNum = fibSeq(N);
 }
 
 //Function to compare the answer from the user to the host
