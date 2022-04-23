@@ -1,0 +1,29 @@
+.problem {
+  width: 1000px;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player {
+  /* display: inline-block;
+  margin: 0px auto;*/
+  padding: 50px;
+}
+
+.code {
+  height: 800px;
+  width: 600px;
+  margin: 0px;
+}
+
+.output {
+  width: 600px;
+  height: 200px;
+}
