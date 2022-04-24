@@ -13,7 +13,7 @@ x = que_String.slice(0, 7) + " " + que_String.slice(7,9) + " " + que_String.slic
 //console.log(x); check out output to see if it's what we want
 
 
-function Compare(player1, player2, host){
+function Compare(answer){
     host = x;
     
     //Lets creata a timestamp to show how long it took the user
@@ -22,16 +22,6 @@ function Compare(player1, player2, host){
         //print out you won!
         console.log("You have won!\n");
         console.log("It took <insert time> to finish!");
-    }
-    else{
-        //print try again
-        console.log("Incorrect! :( Try again")
-    }
-
-    if((hostIn1 === player2)){
-        //print out you won!
-        console.log("You have won!\n");
-        console.log("It took: <insert time> to finish!");
     }
     else{
         //print try again
