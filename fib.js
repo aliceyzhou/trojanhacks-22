@@ -23,13 +23,17 @@ else {
     evalNum = fibSeq(N);
 }
 
+//This is temporary for testing purposes
+Compare(89);
+
+
 //Function to compare the answer from the user to the host
-function Compare(player1, player2, host){
+function Compare(answer){
     host = evalNum;
     
     //Lets creata a timestamp to show how long it took the user
     //to win
-    if((host === player1)){
+    if((host === answer)){
         //print out you won!
         console.log("You have won!\n");
         console.log("It took <insert time> to finish!");
@@ -38,15 +42,4 @@ function Compare(player1, player2, host){
         //print try again
         console.log("Incorrect! :( Try again")
     }
-
-    if((host === player2)){
-        //print out you won!
-        console.log("You have won!\n");
-        console.log("It took: <insert time> to finish!");
-    }
-    else{
-        //print try again
-        console.log("Incorrect! :( Try again")
-    }
-
 }
