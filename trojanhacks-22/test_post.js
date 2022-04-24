@@ -6,7 +6,7 @@ var program = {
   versionIndex: '4',
   clientId: 'd0c25492b573abf6ac0f5999d0f62d98',
   clientSecret:
-    '93caaf867132f33aa55fbdfaa7fae04181b0dfd7c2ac791336e935e4d54505ba',
+    'f9416cae80b7afda1888d70f09a18d8f2b8672526d9486fd56d22096c6047367',
 };
 request(
   {
