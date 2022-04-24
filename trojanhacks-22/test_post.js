@@ -1,7 +1,7 @@
 var request = require('request');
 
 var program = {
-  script: 'console.log("4/20 blaze it")',
+  script: 'console.log("Joshua big boi")',
   language: 'nodejs',
   versionIndex: '4',
   clientId: 'd0c25492b573abf6ac0f5999d0f62d98',
