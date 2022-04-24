@@ -18,12 +18,15 @@ function Compare(answer){
     host = sum;
     //Lets creata a timestamp to show how long it took the user
     //to win
-    if((host === answer)){
+    if((host === answer))
+    {
         //print out you won!
         console.log("You have won!\n");
         console.log("It took <insert time> to finish!");
     }
-    else{
+
+    else
+    {
         //print try again
         console.log("Incorrect! :( Try again")
     }
